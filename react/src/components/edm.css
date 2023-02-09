@@ -1,0 +1,177 @@
+
+div#col1{
+   border:1px ridge royalblue;
+   width: 13cm;
+   height: 2cm;
+   background-color: rgb(22, 185, 214);
+   color: white;
+   border-radius: 3px;
+      transition: 0.3s;
+   text-align: center;
+   display: flex;
+   
+   }
+.image{
+  width: 2cm;
+  height: 2cm;
+  filter: drop-shadow(0 0 30 px #333);
+  
+}
+.logoedm{
+  width: 4cm;
+  height: 2cm;
+  filter: drop-shadow(0 0 30 px rgb(226, 219, 219));
+}
+h1{
+  color: black;
+}
+.temps{
+  border:2px ridge black;
+  width: 10cm;
+  height: 2.5cm;
+  background-color: rgba(103, 165, 236, 0.521);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.argent{
+  border:2px ridge black;
+  width: 12cm;
+  height: 2.5cm;
+  background-color: rgb(153, 153, 245);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.stress{
+  border:2px ridge black;
+  width: 14cm;
+  height: 2.5cm;
+  background-color: rgb(86, 86, 243);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.distraction{
+  border:2px ridge black;
+  width: 16cm;
+  height: 2.5cm;
+  background-color: rgb(91, 58, 240);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.tps{
+  color: white;
+
+}
+.arg{
+  color: aqua;
+}
+.str{
+  color: green;
+}
+.dis{
+  color: darkred;
+}
+.reunion{
+  border:2px ridge black;
+  width: 18cm;
+  height: 2.5cm;
+  background-color: blue;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+
+}
+.rn{
+  color: blue;
+}
+.espace{
+  height:Ocm;
+}
+.mini{
+  height: 1cm;
+  width:1.3cm;
+}
+.lien{
+  color: white;
+  text-decoration: none;
+}
+#flex{
+  display: flex;
+}
+.bouton{
+  background-color: #47B5FF;
+  border-radius: 15px 50px 30px;
+  height: 1cm;
+  width: 2cm;
+}
+.bouton2{
+  background-color: #E8AA42;
+  border-radius: 15px;
+  height: 1cm;
+  width:5cm;
+}
+.blanc{
+  text-shadow: 4px 5px 4px #947b0c;
+  top: 123px;
+}
+.color{
+  color: transparent;
+  background: conic-gradient(
+    #F72F35 12%, rgb(41, 41, 231) 15%,
+    #30C5FF 30%, green 20%, purple 30%,
+    #d3e90ee1 35%, #FFD700 55%,
+    #FF69B4 55%, #FF69B4 70%,
+    #c8da29 70%, #e651ad 90%,                                                                                                                         
+    rgb(236, 79, 106) 75%, rgb(87, 57, 218) 45%,
+    #bf55e2 90%
+  );
+  background-size: 50%;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+/* .blend{
+width: 20 cm;
+height: 6cm;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+width: 29.5cm;
+height: 6cm;
+border-radius: 8px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+}
+.blend h1{
+  font-size: 50px;
+  mix-blend-mode: overlay;
+} */
+.bord{
+  border:2px ridge rgb(247, 243, 243);
+  width: 15cm;
+  height: 11cm;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(7, 3, 3, 0.2);
+  transition: 0.3s;
+  justify-content: center;
+  align-items: center;
+  
+}
+.bord input{
+  width: 8cm;
+  
+}
+.bord2{
+  border:2px ridge rgb(247, 243, 243);
+  width: 30cm;
+  height: 6.5cm;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(7, 3, 3, 0.2);
+  transition: 0.3s;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
